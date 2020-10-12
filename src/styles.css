@@ -51,21 +51,20 @@
   float: right;
 }
 
-.nav a {
+.nav button {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   color: #f69a98;
   font-weight: bold;
   font-size: var(--medium-font-size);
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
 }
 
-.nav a:active {
-  background-color: #4caf50;
-  color: white;
-}
-
-.nav a:hover {
+.nav button:hover {
   background-color: #ddd;
   color: black;
 }
@@ -109,4 +108,13 @@
 
 .category p {
   font-size: var(--small-font-size);
+}
+
+.category:hover h3 {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.category:hover p {
+  cursor: pointer;
 }
