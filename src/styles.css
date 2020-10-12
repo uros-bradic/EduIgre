@@ -1,0 +1,112 @@
+:root {
+  --small-font-size: 12px;
+  --medium-font-size: 15px;
+  --big-font-size: 20px;
+  --base-margin: 30px;
+  --base-padding: 15px;
+}
+
+.body {
+  font-family: sans-serif;
+}
+
+/*************************
+      HEADER
+*************************/
+.header {
+  background-image: url("edu_igre_header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  background-color: #ddd;
+  padding: 25px;
+}
+
+/*************************
+      FOOTER
+*************************/
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding: 0 0 20px 200px;
+  height: 150px;
+  background: #f37e7d;
+  font-size: var(--small-font-size);
+}
+
+/*************************
+      NAVIGATION
+*************************/
+
+.nav ul {
+  list-style-type: none;
+  margin: 0 100px 0 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.nav li {
+  float: right;
+}
+
+.nav a {
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #f69a98;
+  font-weight: bold;
+  font-size: var(--medium-font-size);
+}
+
+.nav a:active {
+  background-color: #4caf50;
+  color: white;
+}
+
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/*************************
+      HOME PAGE
+*************************/
+.category {
+  position: relative;
+  text-align: left;
+}
+
+.category--left {
+  left: 10%;
+  width: 30%;
+}
+
+.category--right {
+  left: 60%;
+  width: 30%;
+}
+
+.category--middle {
+  left: 35%;
+  width: 30%;
+}
+
+.category--middle-left {
+  left: 20%;
+  width: 30%;
+}
+
+.category--middle-right {
+  left: 50%;
+  width: 30%;
+}
+
+.category h3 {
+  font-size: var(--big-font-size);
+}
+
+.category p {
+  font-size: var(--small-font-size);
+}
