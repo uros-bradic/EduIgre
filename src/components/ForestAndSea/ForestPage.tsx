@@ -1,5 +1,10 @@
 import React from "react";
+import { NumbersGame } from "../Game/Numbers/NumbersGame";
 
 export function ForestPage() {
-  return <div>Forest</div>;
+  return (
+    <div>
+      <NumbersGame />
+    </div>
+  );
 }

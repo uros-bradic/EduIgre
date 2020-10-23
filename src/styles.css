@@ -118,3 +118,23 @@
 .category:hover p {
   cursor: pointer;
 }
+
+/*************************
+      GAME 
+*************************/
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.figure {
+  /* width: 100px; */
+  height: 100px;
+  flex: 1 0 30%;
+}
+
+.figure img {
+  height: 100%;
+}
